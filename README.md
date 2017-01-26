@@ -36,5 +36,5 @@ if you have any questions feel free to contact, niels@tamethat.com
 
 ### Completed?
 
-please send either .zip or your preferred way to send me your solutions!
+Create a repo and send your solution to me, @bytewiz or niels@tamethat.com
 would love to review it!
