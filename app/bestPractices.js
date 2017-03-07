@@ -9,7 +9,7 @@ exports = typeof window === 'undefined' ? global : window;
 
 exports.bestPracticesAnswers = {
   globals: function() {
-    myObject = {
+    let myObject = {
       name: 'Jory'
     };
 
@@ -17,10 +17,11 @@ exports.bestPracticesAnswers = {
   },
 
   parseInt: function(num) {
-    return parseInt(num);
+    return parseInt(num, 10);
   },
 
   identity: function(val1, val2) {
-
+    // the second check verify the NaN case
+    return (val1 === val2 || (val1 !== val1 && val2 !== val2))
   }
 };
